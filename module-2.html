@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module 2 assignment</title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width,initial-scale=1">
+</head>
+<style>
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	text-align: center;
+	font-size: 25px;
+	font-style: normal;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+h2{
+	font-size: 15px;
+	padding:0px;
+	margin:0px;
+	float:right;
+}
+
+#t1{
+	background-color: red;
+	border: 1px solid black;
+	margin:0px;
+	padding: 2px;
+	width: 100px;
+	text-align: center;
+}
+#t2{
+	background-color: #00f00f;
+	border: 1px solid black;
+	margin:0px;
+	padding: 2px;
+	width: 100px;
+	text-align: center;
+}
+#t3{
+	background-color: cyan;
+	border: 1px solid black;
+	margin:0px;
+	padding: 2px;
+	width: 100px;
+	text-align: center;
+}
+
+
+p{
+	padding: 3px 12px 3px 12px;
+	margin: 35px 5px 15px 5px;
+}
+
+section{
+	background-color: #DDDDDD;
+	border: 1px solid black;
+	margin:18px;
+	padding: 0px;
+	float:left;
+	position: relative;
+}
+
+.row{
+	width: 100%
+}
+
+
+@media (min-width: 992px){
+	.desktop{
+		width: 33.33%;
+		float: left;
+	}
+}
+@media (min-width:768px) and (max-width: 991px){
+	.tablet1{
+		width:50%;
+		float: left;
+	}
+	.tablet2{
+		width:100%;
+		float: left;
+	}
+}
+@media (max-width: 767px){
+	.mobile{
+		width:100%;
+		float: left;
+	}
+}
+</style>
+<body>
+	<h1>Our Menu</h1>
+
+<div class="row">
+	  <div  class="desktop tablet1 mobile">
+	   <section>
+	    <h2 id="t1">Chicken</h2>
+	     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p>
+	   </section>
+      </div>
+
+
+          <div class="desktop tablet1 mobile">
+	       <section>
+		    <h2 id="t2">Beef</h2>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p>
+	       </section>
+          </div>
+
+     <div class="desktop tablet2 mobile">
+	  <section>
+	   <h2 id="t3">Sushi</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. </p>
+	  </section>
+     </div>
+
+</div>
+
+</body>
+</html>
