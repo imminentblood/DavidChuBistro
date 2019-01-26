@@ -119,4 +119,8 @@ div h3{
   #bold{
     margin:100px;
   }
+    #collapsable-nav a span { 
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
 }
